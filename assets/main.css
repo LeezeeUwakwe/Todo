@@ -40,8 +40,9 @@ body {
     border-radius: 4px;
 }
 .check-box {
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
+    padding-left: 2px;
     border-radius: 50%;
     background-color: transparent;
     border: 2px solid hsl(0, 0%, 98%);
@@ -95,9 +96,13 @@ input[type="text"] {
 }
 .icon {
     display: none;
+    
 }
 .gradient {
-    background-color: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+    background: linear-gradient(#57ddff, #c058f3);
+}
+.done {
+    text-decoration: line-through;
 }
 .last {
     text-align: center;
@@ -127,8 +132,6 @@ input[type="text"] {
         padding: 15px 100px;
         background-color: #25273C;
         border-radius: 4px;
-    
-
     }
 
 
